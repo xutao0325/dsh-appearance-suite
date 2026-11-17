@@ -1,0 +1,11 @@
+# Copy to awesome-dsh-plugin repo as data/plugins/xutao0325__dsh-appearance-suite.yml
+
+url: https://github.com/xutao0325/dsh-appearance-suite
+name: xutao0325/dsh-appearance-suite
+category: theme
+description:
+  en: 'DSH appearance bundle for desktop 0.2.2-rc.x: wallpaper with theme-aware veil, session-header balance chip with privacy toggle, and light/dark switch on the sidebar brand row.'
+  zh: 'DSH 外观套件（桌面 0.2.2-rc.x）：自适应深浅蒙版的壁纸、会话头余额胶囊（小眼睛显隐）、侧栏品牌行主题切换。'
+icon: https://raw.githubusercontent.com/xutao0325/dsh-appearance-suite/main/assets/icon.svg
+# After npm publish, CI may pick up the package name automatically; mention in the PR:
+# npm package: dsh-appearance-suite

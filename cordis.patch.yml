@@ -1,0 +1,5 @@
+# dsh-appearance-suite —— 外观增强套件（零侵入 bundle patch）。
+# 把浏览器半边（lib/client.js）挂进 profile 组合；宿主半边无行为。
+- insert:
+    - id: dsh-appearance-suite
+      name: "dsh-appearance-suite"

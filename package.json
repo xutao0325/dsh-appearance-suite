@@ -1,0 +1,50 @@
+{
+  "name": "dsh-appearance-suite",
+  "version": "1.0.9",
+  "icon": "assets/icon.svg",
+  "description": "DSH appearance bundle: wallpaper, session-header balance chip with privacy toggle, sidebar brand-row theme switch (desktop 0.2.2-rc.x).",
+  "type": "module",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "appearance",
+    "theme",
+    "wallpaper",
+    "ui"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xutao0325/dsh-appearance-suite.git"
+  },
+  "homepage": "https://github.com/xutao0325/dsh-appearance-suite",
+  "bugs": {
+    "url": "https://github.com/xutao0325/dsh-appearance-suite/issues"
+  },
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "assets/icon.svg",
+    "locale",
+    "cordis.patch.yml",
+    "LICENSE"
+  ],
+  "engines": {
+    "dsh": ">=0.2.2-rc.0 <0.3.0-0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  }
+}
